@@ -47,21 +47,45 @@ h2{
     margin-right: 30%; 
 }
 
-.item-area{
+.items-container{
     display: flex;
-    border: solid black;
-    width: 100%;
+    margin-left: 120px;
+    margin-right: 120px;
+    
 }
 .item-showcase img{
     width: 100%;
 }
 .img{
+    height: 150px;
     width: 100%;
 }
 .items{
-    width: 20%;
-    border: solid black;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 20px darkgray;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 5px;
+}
+footer{
+    text-align: center;
+    background-color: navy;
+    padding: 5px;
+    margin-top: 90px;
+}
+footer h3{
+    color: grey;
+}
+footer p{
+    color: white;
+}
+.content{
+    display: flex;
+}
+.social{
+    margin-top: 100px;
+}
+.sc{
+    text-align: center;
+    width: 33.33%;
 }
