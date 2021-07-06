@@ -1,3 +1,67 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+h1{
+    font-size: 60px;
+}
+h2{
+    font-size: 40px;
+}
+.orange-color{
+    color: orange;
+}
+.half-size{
+    width: 50%;
+}
+.half-size img{
+    width: 100%;
+}
+.connected-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, red);
+    color: white;
+    padding: 10px 30px;
+    border-radius: 30px;
+}
+.flexible{
+    display: flex;
+    color:gray;
+    margin: 5% ;
+}
+
+#mid-banner{
+    background-image: url(images/shapes/7.png);
+    padding-top: 5%;
+}
+#writer-image img{
+    width: 50%;
+    padding-left: 25%;
+}
+#writer-info{
+    text-align: justify;
+    padding-top: 5%;
+}
+.my-recipes{
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%; 
+}
+
+.item-area{
+    display: flex;
+    border: solid black;
+    width: 100%;
+}
+.item-showcase img{
+    width: 100%;
+}
+.img{
+    width: 100%;
+}
+.items{
+    width: 20%;
+    border: solid black;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+}
