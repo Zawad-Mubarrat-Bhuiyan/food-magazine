@@ -73,6 +73,9 @@ footer{
     padding: 5px;
     margin-top: 90px;
 }
+footer h2{
+    color: white;
+}
 footer h3{
     color: grey;
 }
